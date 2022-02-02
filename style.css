@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&family=Roboto+Condensed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  text-align: center
+}
+
+.card-white-1 {
+  background-color: #ffffff;
+  width: 800px;
+  border-top: 4px solid #64b6ac;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 25px;
+  padding-bottom: 45px;
+  box-shadow: 1px 1px 1px rgb(0, 0, 0,.1);
+}
+
+.card-white-2 {
+  background-color: #ffffff;
+  width: 800px;
+  border-top: 4px solid #64b6ac;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 25px;
+  box-shadow: 1px 1px 1px rgb(0, 0, 0,.1);
+}
+
+body {
+  background-color: #d2fcfa;
+  font-family: 'Roboto', serif;
+}
+
+h1 {
+  color: black;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 20px
+}
+
+h2 {
+  color: black;
+  font-family: 'Roboto', serif;
+  font-size: 45px;
+}
+
+h3 {
+  color: black;
+  font-family: 'Roboto', serif;
+  font-size: 20px;
+}
+
+a {
+  font-family: 'Roboto', serif;
+  font-weight:700;
+  color: #000000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #d2fcfa;
+}
+
+.list-inline > li {
+  font-size: 40px;
+  display: inline-block;
+  list-style: none;
+  padding: 0px 20px;
+  padding-left: 0px;
+}
+
+#avatar {
+  border-radius: 50%;
+  width: 125px;
+  height: 125px;
+}
+
+.button-black {
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.description {
+  font-family: 'Roboto', serif;
+  color: #202e2c;
+  font-weight: 400;
+  padding-bottom: 20px;
+  font-size:15px;
+}
+
+.big {
+  font-size:20px;
+  background: #d2fcfa;
+  padding: 2px;
+}
+
+.big-header {
+  font-size:50px;
+  background: #d2fcfa;
+  padding: 2px;
+}
+
+.big:hover {
+  font-size:20px;
+  background: #d2fcfa;
+  text-decoration: underline;
+}
+
+.menu-bar {
+  font-family: 'Roboto', serif;
+  color: #000000;
+  font-size: 15px;
+  padding-left: 550px;
+}
+
+.menu {
+  background: #d2fcfa;
+}
+
+.menu:hover {
+  background: #d2fcfa;
+  color: black;
+  text-decoration: underline;
+}
+
+.footer {
+  background: #d2fcfa;
+}
